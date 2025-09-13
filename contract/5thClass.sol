@@ -29,4 +29,17 @@ contract Marketplace {
 
         return productId;
     }
+
+    function updateProductName(uint256 productId, string memory newName) public {
+        Product storage product = productById[productId];
+        product.name = newName;
+
+        Product memory tempProduct = productById[productId];
+        tempProduct.name = "I am nothing";
+    }
+
+    function updateProductPrice(uint256 productId, uint256 newPrice) public {
+        Product storage product = productById[productId];
+        product.price = newPrice;
+    }
 }
