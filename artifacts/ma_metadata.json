@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/5thClass.sol": "Name"
+			"contract/5thClass.sol": "ma"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contract/5thClass.sol": {
-			"keccak256": "0x83976002262e3be2c75bc978e9b006ef1c3e6d8220831149bd78f10a0a6b3486",
+			"keccak256": "0x65f8e1ccdb633b10783a4d5047c90e0e3465873108a025439b404dfba011fc98",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7385363e8f8ddfa544e8ea18b9515125e51755a720c60b2e84c531668c8167bb",
-				"dweb:/ipfs/QmZSwWXxjvAshNiJyZa6Tf8qEwZVGA87TN3453cZJNf61j"
+				"bzz-raw://5c26d038e9b03e48c9df490cc31d8b968309fc7a6b66ce2f303012a771d8016e",
+				"dweb:/ipfs/QmUStEfTvZc7JLXQ5eaUeqPNkrzRJqbiA44f7dbi415dpM"
 			]
 		}
 	},
