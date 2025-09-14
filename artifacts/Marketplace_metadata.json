@@ -253,11 +253,11 @@
 	},
 	"sources": {
 		"contract/5thClass.sol": {
-			"keccak256": "0x7a9dd52b48d29ef34d3481015a37c9c48ebe838dcb5029e3053535ebd1792569",
+			"keccak256": "0x95c8148559fcf36b4572e11617a1740433922ab44d133a173104d47b9861e920",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://58007100ddc1bac5585d33b0c402bba3962a5e39a0f0a6653d89ad98e0a595be",
-				"dweb:/ipfs/QmZyEmGVHEdqf7yJEM6uhesa4feuCWERwuLqy225DdRVbN"
+				"bzz-raw://967d1af4f1531881add47091691f0a03c78166a6cf4b1225c43198fac830b673",
+				"dweb:/ipfs/QmUM7gt8d3fNbpKxWPUk9udCMd6GJx9QKYj7sRe5Jh5KFW"
 			]
 		}
 	},

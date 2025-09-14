@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.20;
 
 contract Marketplace {
 
@@ -65,7 +65,9 @@ contract Marketplace {
             timestamp: block.timestamp,
             status: OrderStatus.Pending
         });
-    }    
+    }
+
+
 
     function updateOrderStatus(uint256 orderId, OrderStatus newStatus) public {
         require(orders[orderId].buyer == msg.sender, "This is not your order");
