@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -27,6 +27,82 @@
 					}
 				],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "productId",
+						"type": "uint256"
+					}
+				],
+				"name": "createOrder",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Marketplace.OrderStatus",
+						"name": "from",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Marketplace.OrderStatus",
+						"name": "to",
+						"type": "uint8"
+					}
+				],
+				"name": "isValidTransition",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "orders",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "productId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Marketplace.OrderStatus",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -111,16 +187,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "productId",
+						"name": "orderId",
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
-						"name": "newName",
-						"type": "string"
+						"internalType": "enum Marketplace.OrderStatus",
+						"name": "newStatus",
+						"type": "uint8"
 					}
 				],
-				"name": "updateProductName",
+				"name": "updateOrderStatus",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -133,12 +209,17 @@
 						"type": "uint256"
 					},
 					{
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
 						"name": "newPrice",
 						"type": "uint256"
 					}
 				],
-				"name": "updateProductPrice",
+				"name": "updateProductName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -159,7 +240,7 @@
 		"compilationTarget": {
 			"contract/5thClass.sol": "Marketplace"
 		},
-		"evmVersion": "london",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -172,11 +253,11 @@
 	},
 	"sources": {
 		"contract/5thClass.sol": {
-			"keccak256": "0xb36b9c40887b2e6a5cc60f2a81ffee32d4d4a1fef3818676524ab3d208b6af4a",
+			"keccak256": "0x7a9dd52b48d29ef34d3481015a37c9c48ebe838dcb5029e3053535ebd1792569",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://52dfe7c909fb29b914f14ad45a13744330d608372a1845cdf6cf79b5047f363f",
-				"dweb:/ipfs/QmdFeswreCtLbAjwmZn3LQTx5A2RCi1XwgS1LeR37i26iu"
+				"bzz-raw://58007100ddc1bac5585d33b0c402bba3962a5e39a0f0a6653d89ad98e0a595be",
+				"dweb:/ipfs/QmZyEmGVHEdqf7yJEM6uhesa4feuCWERwuLqy225DdRVbN"
 			]
 		}
 	},

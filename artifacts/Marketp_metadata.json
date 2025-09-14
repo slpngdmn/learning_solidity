@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/5thClass.sol": "Name"
+			"contract/5thClass.sol": "Marketp"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contract/5thClass.sol": {
-			"keccak256": "0x63e7d2a350a45363111fd6246cc7799d9315c20dcdd6b8649260c34f598c2352",
+			"keccak256": "0x6730dc65e0be609fdac6570bce7d40e569861a85ca3a72694b66a16ca9cda311",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b5f0a0822c3f95b298d6467c4a84a16c45e95fab3505df5c27601b19ca0f9525",
-				"dweb:/ipfs/QmXrhgyLCRKBMHMoUaiVE1BR4sHkWDSMc8GFL2JuMbEBeN"
+				"bzz-raw://16666f1ce5c598bd6eb16818f618a9a875485146d04d67df4ebf69249d19a02b",
+				"dweb:/ipfs/QmWE89R6U6ogzn7hF2vrR7mKxBVc1WcLGZ6MF6PXKgmzLa"
 			]
 		}
 	},

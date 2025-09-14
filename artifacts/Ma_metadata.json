@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/5thClass.sol": "Name"
+			"contract/5thClass.sol": "Ma"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contract/5thClass.sol": {
-			"keccak256": "0x63e7d2a350a45363111fd6246cc7799d9315c20dcdd6b8649260c34f598c2352",
+			"keccak256": "0xbd00a29b9ce5134f82b53c0522be8b11c178308b2825d22b953f9c993e4804f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b5f0a0822c3f95b298d6467c4a84a16c45e95fab3505df5c27601b19ca0f9525",
-				"dweb:/ipfs/QmXrhgyLCRKBMHMoUaiVE1BR4sHkWDSMc8GFL2JuMbEBeN"
+				"bzz-raw://430f6111c96025c90fd1fa636b5d837ebfcbf9bcd427a8bc474dd6c36e58d27c",
+				"dweb:/ipfs/QmbQyZUoqYwukBRiYCVzK65P2YBoCfHEkrAmhbN4D44uGs"
 			]
 		}
 	},
