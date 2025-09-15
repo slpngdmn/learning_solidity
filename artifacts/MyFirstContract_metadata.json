@@ -6,8 +6,63 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_addAge",
+						"type": "uint256"
+					}
+				],
+				"name": "addAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "get",
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -19,10 +74,36 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "newAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "finalName",
+						"name": "_name",
 						"type": "string"
 					}
 				],
@@ -60,11 +141,11 @@
 	},
 	"sources": {
 		"contract/1stClass.sol": {
-			"keccak256": "0xdef23d581a1317a2d9603ca7facb5b4e6a6ecbe6a8604a72855550fdd8975b69",
+			"keccak256": "0x7b693f70f92aac70de7feca670194179acf9009ff1b4730b50eeb3aa8a557162",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e185b352523cc8335b90267bf28dbf8221a60e9275f9938165815ba69c8b9b7",
-				"dweb:/ipfs/QmWosskUiha1eAmYZLkjJuLRuHKcgBywvgXYqVJ2T2fQP4"
+				"bzz-raw://835ce1bcd18307c3e41d8323e0e9f1950232b027624b62a1a474c8b2574a6648",
+				"dweb:/ipfs/QmawQUi22rpAMzBfFwv4DnKXoSaGEUPRZXQ1PzDLioUuKX"
 			]
 		}
 	},
