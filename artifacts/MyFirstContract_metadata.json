@@ -6,27 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_addAge",
-						"type": "uint256"
-					}
-				],
-				"name": "addAge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "age",
+				"name": "calculate",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -34,82 +15,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getInfo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "newAge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					}
-				],
-				"name": "setAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "setName",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -141,11 +47,11 @@
 	},
 	"sources": {
 		"contract/1stClass.sol": {
-			"keccak256": "0x7b693f70f92aac70de7feca670194179acf9009ff1b4730b50eeb3aa8a557162",
+			"keccak256": "0x93f6c78489c6e9d37b5e01363d08063c5a35d1b4892fff01c9247e3ae06a7886",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://835ce1bcd18307c3e41d8323e0e9f1950232b027624b62a1a474c8b2574a6648",
-				"dweb:/ipfs/QmawQUi22rpAMzBfFwv4DnKXoSaGEUPRZXQ1PzDLioUuKX"
+				"bzz-raw://e8505b17e73c82f9cae9767e782a36bdf699d6cc1457c90af78a00a1f5ba1b79",
+				"dweb:/ipfs/QmYvNHBCu4bfFNkEDERWzdhjG72qAHuet4jiv3kiLeu9ok"
 			]
 		}
 	},
